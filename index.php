@@ -75,7 +75,7 @@ div.red {
 				foreach ($Korisnici->Korisnik as $Korisnik){
 					if($Korisnik->KorisnickoIme == $KorisnickoIme && $KorisnickoIme == "profesor"){
 						$Login = 1;
-						header('Location: pocetna2.html');
+						header('Location: pocetna_profesor.html');
 					}
 				}
 				
@@ -98,7 +98,7 @@ div.red {
 
 <form action="index.php" method="POST">
   <div class="imgcontainer">
-    <img src="amigos.png" alt="Avatar" class="avatar">
+    <img src="img/header-logo.png" alt="Avatar" class="avatar">
   </div>
 
   <div class="container">
